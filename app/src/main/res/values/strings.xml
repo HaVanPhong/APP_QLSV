@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">APP_QLSV</string>
+    <string name="action_home">TRANG CHỦ</string>
+    <string name="action_class">LỚP HỌC</string>
+    <string name="action_student">SINH VIÊN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="OKE">ĐỒNG Ý</string>
+    <string name="CANCEL">HỦY</string>
+</resources>

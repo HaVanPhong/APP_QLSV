@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_item_lop"
+    android:alpha="0.8"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="40dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/icon_lop" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:background="@drawable/bg_gradient_radius"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_weight="7"
+            android:id="@+id/tvMaLop_dialog_cr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Mã lớp"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/bg_gradient_radius"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_weight="7"
+            android:id="@+id/tvTenLop_dialog_cr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="tên Lớp"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/bg_gradient_radius"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_weight="7"
+            android:id="@+id/tvGVCN_dialog_cr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="GVCN"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/bg_gradient_radius"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_weight="7"
+            android:id="@+id/tvSiso_dialog_cr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Số sinh viên"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="25dp"
+            android:inputType="number"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnCreateNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATE"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_gradient_radius2"/>
+
+</LinearLayout>

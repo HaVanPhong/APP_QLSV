@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/custom_item_lop"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:alpha="0.8"
+    android:layout_margin="10dp"
+    android:layout_height="150dp"
+    android:id="@+id/lnLop">
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        app:cardCornerRadius="24dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@drawable/bg_radius"
+            android:layout_width="80dp"
+            android:src="@drawable/icon_lop"
+            android:layout_height="80dp"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/tvTl"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên lớp"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"/>
+
+</LinearLayout>

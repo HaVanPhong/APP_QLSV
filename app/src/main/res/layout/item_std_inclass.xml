@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/bg_gradient_radius"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvName_item_in_class"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ha Phong tv"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/tvDiemTLIitem_in_class"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:text="4.4"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

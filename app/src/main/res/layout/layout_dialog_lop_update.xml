@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom_item_lop"
+        android:alpha="0.7"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="60dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/icon_lop" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:background="@drawable/bg_gradient_radius"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Mã lớp: "
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="7"
+                android:id="@+id/tvMaLop_dialog_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="DH2018CNTT6"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="25dp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/bg_gradient_radius"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Tên lớp: "
+                android:textColor="@color/white"
+                android:textSize="25dp"
+
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_weight="7"
+                android:id="@+id/tvTenLop_dialog_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="CNTT6"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="25dp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/bg_gradient_radius"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="GVCN: "
+                android:textColor="@color/white"
+                android:textSize="25dp"
+
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_weight="7"
+                android:id="@+id/tvGVCN_dialog_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Đặng Thị Nhung"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="25dp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/bg_gradient_radius"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Sí số: "
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_weight="7"
+                android:id="@+id/tvSiso_dialog_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="20"
+                android:inputType="number"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="25dp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnUpdateNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UPDATE"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_gradient_radius2"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
